@@ -1,0 +1,28 @@
+{
+  "name": "create-docker-context-for-node-component",
+  "version": "1.0.0",
+  "description": "Wrap up node.js components in a docker image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TerriaJS/create-docker-context-for-node-component.git"
+  },
+  "author": "CSIRO's Data61",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TerriaJS/create-docker-context-for-node-component/issues"
+  },
+  "homepage": "https://github.com/TerriaJS/create-docker-context-for-node-component#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "is-subdir": "^1.1.1",
+    "lodash": "^4.17.15",
+    "yargs": "^14.2.0"
+  },
+  "bin": {
+    "create-docker-context-for-node-component": "index.js"
+  }
+}
